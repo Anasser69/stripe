@@ -116,8 +116,8 @@ const App = () => {
             <Button title="Pay" onPress={handlePay} />
           </>
         )} */}
-        {/* <PaymentScreen /> */}
-        <Apple />
+        <PaymentScreen />
+        {/* <Apple /> */}
       </View>
     </StripeProvider>
   );
